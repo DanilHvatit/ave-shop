@@ -669,7 +669,6 @@ $(document).ready(function () {
 				position: 'absolute',
 				'max-width': 'none',
 			});
-			console.log($(this).find('.zoom__big'));
 			$(this).find('.zoom__body').hover(function () {
 				big.addClass('active');
 				$(this).parent().addClass('active');
